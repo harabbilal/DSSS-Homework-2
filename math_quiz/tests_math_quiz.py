@@ -23,7 +23,8 @@ class TestMathGame(unittest.TestCase):
             ]
 
             for num1, num2, operator, expected_problem, expected_answer in test_cases:
-                # TODO
+                result = function_C(5, 2, '+')
+                self.assertEqual(function_C(5, 2, '+'), 7)
                 pass
 
 if __name__ == "__main__":
